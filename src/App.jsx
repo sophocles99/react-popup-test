@@ -4,7 +4,7 @@ import Modal from "./components/Modal";
 function App() {
   return (
     <>
-      <Modal>
+      <Modal isOpen={true} hasCloseBtn={true}>
         <h1>Hello Modal</h1>
       </Modal>
     </>
